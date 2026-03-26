@@ -23,7 +23,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-markovify-rs = "0.1.1"
+markovify-rs = "0.1.2"
 ```
 
 ## Basic Usage

@@ -1,6 +1,6 @@
 [package]
 name = "markovify-rs"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Akin <akinpasha82@gmail.com>"]
 description = "A fast, extensible Rust implementation of a Markov chain text generator, inspired by markovify"
