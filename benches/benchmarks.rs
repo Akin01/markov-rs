@@ -164,7 +164,8 @@ fn bench_model_combination(c: &mut Criterion) {
 
     group.bench_function("combine_two_models_weighted", |b| {
         b.iter(|| {
-            markovify_rs::utils::combine_texts(vec![&model_a, &model_b], Some(vec![1.5, 1.0])).unwrap()
+            markovify_rs::utils::combine_texts(vec![&model_a, &model_b], Some(vec![1.5, 1.0]))
+                .unwrap()
         })
     });
 
