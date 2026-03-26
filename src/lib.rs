@@ -1,8 +1,8 @@
-//! # markov-rs
+//! # markovify-rs
 //!
 //! A Rust implementation of a Markov chain text generator, inspired by [markovify](https://github.com/jsvine/markovify).
 //!
-//! Markov-rs is a simple, extensible Markov chain generator. Its primary use is for building
+//! Markovify-rs is a simple, extensible Markov chain generator. Its primary use is for building
 //! Markov models of large corpora of text and generating random sentences from that.
 //!
 //! ## Basic Usage

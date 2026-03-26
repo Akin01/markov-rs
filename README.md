@@ -1,12 +1,12 @@
-# markov-rs
+# markovify-rs
 
-[![Crates.io](https://img.shields.io/crates/v/markov-rs.svg)](https://crates.io/crates/markov-rs)
-[![Documentation](https://docs.rs/markov-rs/badge.svg)](https://docs.rs/markov-rs)
+[![Crates.io](https://img.shields.io/crates/v/markovify-rs.svg)](https://crates.io/crates/markovify-rs)
+[![Documentation](https://docs.rs/markovify-rs/badge.svg)](https://docs.rs/markovify-rs)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Rust implementation of a Markov chain text generator, inspired by [markovify](https://github.com/jsvine/markovify).
 
-**markov-rs** is a simple, extensible Markov chain generator. Its primary use is for building Markov models of large corpora of text and generating random sentences from that.
+**markovify-rs** is a simple, extensible Markov chain generator. Its primary use is for building Markov models of large corpora of text and generating random sentences from that.
 
 ## Features
 
@@ -23,7 +23,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-markov-rs = "0.1.0"
+markovify-rs = "0.1.1"
 ```
 
 ## Basic Usage
@@ -213,7 +213,7 @@ Same API as `Text`, but uses newline-based sentence splitting.
 
 Rust provides significant performance improvements over the Python implementation:
 
-| Operation | Python (markovify) | Rust (markov-rs) | Speedup |
+| Operation | Python (markovify) | Rust (markovify-rs) | Speedup |
 |-----------|-------------------|------------------|---------|
 | Model Creation | 50-100 ms | 5-15 ms | **5-10x** |
 | Sentence Generation | 1-5 ms | 0.01-0.1 ms | **50-100x** |
