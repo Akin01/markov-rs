@@ -9,7 +9,7 @@
 //!
 //! Note: This example creates temporary files in the target directory.
 
-use markov_rs::Text;
+use markovify_rs::Text;
 use std::fs;
 use std::io;
 use std::path::Path;
@@ -83,7 +83,7 @@ fn main() -> io::Result<()> {
 
     // Combine models
     println!("Step 4: Combining models...");
-    let combined = markov_rs::utils::combine_texts(vec![&model1, &model2], None)
+    let combined = markovify_rs::utils::combine_texts(vec![&model1, &model2], None)
         .expect("Failed to combine models");
     println!("  ✓ Models combined");
 

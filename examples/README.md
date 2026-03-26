@@ -146,7 +146,7 @@ Remaining: 213 chars
    //!
    //! Run with: cargo run --example my_example
 
-   use markov_rs::Text;
+   use markovify_rs::Text;
 
    fn main() {
        let corpus = "Your text here.";

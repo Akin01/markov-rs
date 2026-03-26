@@ -7,7 +7,7 @@
 //!
 //! Run with: cargo run --example basic
 
-use markov_rs::Text;
+use markovify_rs::Text;
 
 fn main() {
     // Sample corpus - in practice, you'd load this from a file

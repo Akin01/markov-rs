@@ -10,7 +10,7 @@
 //! - JSON serialization/deserialization
 
 use criterion::{black_box, criterion_group, criterion_main, Criterion, Throughput};
-use markov_rs::{Chain, NewlineText, Text};
+use markovify_rs::{Chain, NewlineText, Text};
 use std::fs;
 
 /// Load the Sherlock Holmes corpus
@@ -159,12 +159,12 @@ fn bench_model_combination(c: &mut Criterion) {
     let mut group = c.benchmark_group("model_combination");
 
     group.bench_function("combine_two_models_equal_weights", |b| {
-        b.iter(|| markov_rs::utils::combine_texts(vec![&model_a, &model_b], None).unwrap())
+        b.iter(|| markovify_rs::utils::combine_texts(vec![&model_a, &model_b], None).unwrap())
     });
 
     group.bench_function("combine_two_models_weighted", |b| {
         b.iter(|| {
-            markov_rs::utils::combine_texts(vec![&model_a, &model_b], Some(vec![1.5, 1.0])).unwrap()
+            markovify_rs::utils::combine_texts(vec![&model_a, &model_b], Some(vec![1.5, 1.0])).unwrap()
         })
     });
 

@@ -4,7 +4,7 @@
 //!
 //! Run with: cargo run --example sentence_with_start
 
-use markov_rs::Text;
+use markovify_rs::Text;
 
 fn main() {
     let corpus = r#"

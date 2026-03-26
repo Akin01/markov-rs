@@ -11,7 +11,7 @@
 //!
 //! Run with: cargo run --example newline_text
 
-use markov_rs::NewlineText;
+use markovify_rs::NewlineText;
 
 fn main() {
     // Poetry corpus (each line is a separate unit)

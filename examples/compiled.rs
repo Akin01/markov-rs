@@ -6,7 +6,7 @@
 //!
 //! Run with: cargo run --example compiled
 
-use markov_rs::Text;
+use markovify_rs::Text;
 use std::time::Instant;
 
 fn main() {

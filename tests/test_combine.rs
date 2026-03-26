@@ -1,5 +1,5 @@
-use markov_rs::utils::{combine_chains, combine_models, combine_texts, ModelRef};
-use markov_rs::Text;
+use markovify_rs::utils::{combine_chains, combine_models, combine_texts, ModelRef};
+use markovify_rs::Text;
 
 fn load_sherlock() -> String {
     std::fs::read_to_string("tests/sherlock.txt")

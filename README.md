@@ -29,7 +29,7 @@ markovify-rs = "0.1.1"
 ## Basic Usage
 
 ```rust
-use markov_rs::Text;
+use markovify_rs::Text;
 
 // Get raw text as string
 let text = r#"
@@ -75,7 +75,7 @@ let model = Text::new(text, 3, true, true, None).unwrap();
 Combine two or more Markov chains with optional weights:
 
 ```rust
-use markov_rs::{Text, utils::combine_texts};
+use markovify_rs::{Text, utils::combine_texts};
 
 let model_a = Text::new(text_a, 2, true, true, None).unwrap();
 let model_b = Text::new(text_b, 2, true, true, None).unwrap();
@@ -105,7 +105,7 @@ text_model.compile_inplace();
 For text where sentences are separated by newlines instead of punctuation:
 
 ```rust
-use markov_rs::NewlineText;
+use markovify_rs::NewlineText;
 
 let text = r#"
 Line one here

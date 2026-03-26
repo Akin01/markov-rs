@@ -8,7 +8,7 @@
 //!
 //! Run with: cargo run --example serialization
 
-use markov_rs::Text;
+use markovify_rs::Text;
 use std::fs;
 use std::path::Path;
 

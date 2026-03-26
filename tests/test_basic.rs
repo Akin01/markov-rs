@@ -1,4 +1,4 @@
-use markov_rs::{Chain, NewlineText, Text};
+use markovify_rs::{Chain, NewlineText, Text};
 use std::fs;
 
 fn load_sherlock() -> String {

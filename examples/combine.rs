@@ -8,7 +8,7 @@
 //!
 //! Run with: cargo run --example combine
 
-use markov_rs::{utils::combine_texts, Text};
+use markovify_rs::{utils::combine_texts, Text};
 
 fn main() {
     // Two different writing styles

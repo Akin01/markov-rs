@@ -5,7 +5,7 @@
 //!
 //! Run with: cargo run --example tweet_generator
 
-use markov_rs::Text;
+use markovify_rs::Text;
 
 fn main() {
     // A corpus of tech-themed tweets

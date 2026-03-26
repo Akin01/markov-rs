@@ -8,7 +8,7 @@
 //! ## Basic Usage
 //!
 //! ```rust
-//! use markov_rs::Text;
+//! use markovify_rs::Text;
 //!
 //! // Build the model
 //! let text = "Hello world. This is a test. The quick brown fox jumps.";

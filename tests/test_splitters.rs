@@ -1,4 +1,4 @@
-use markov_rs::splitters::{is_abbreviation, is_sentence_ender, split_into_sentences};
+use markovify_rs::splitters::{is_abbreviation, is_sentence_ender, split_into_sentences};
 
 #[test]
 fn test_is_abbreviation() {

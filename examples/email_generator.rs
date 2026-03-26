@@ -11,7 +11,7 @@
 //!
 //! Run with: cargo run --example email_generator
 
-use markov_rs::Chain;
+use markovify_rs::Chain;
 
 /// Generate email addresses using a pattern-based approach
 #[allow(dead_code)]
@@ -104,7 +104,7 @@ impl EmailGenerator {
 
 /// Alternative approach: Use Text model with email patterns
 fn generate_emails_with_text(emails: &[&str], count: usize) -> Vec<String> {
-    use markov_rs::NewlineText;
+    use markovify_rs::NewlineText;
 
     // Create model from existing email patterns (newline delimited)
     let corpus = emails.join("\n");
